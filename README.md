@@ -13,7 +13,8 @@
 
 
 1. System aktualisieren `sudo apt update && sudo apt upgrade -y`
-2. Pakete installieren `sudo apt install mpd mpc alsa-utils apache2 php -y`
+2. Pakete installieren `sudo apt install mpd mpc alsa-utils apache2 php git -y`
+2.2 Git clone `sudo git clone https://github.com/Fabian-Siebels/mpd-webinterface` 
 3. index.html löschen `sudo rm /var/www/html`
 4. index.php einfügen `sudo mv index.php /var/www/html`
 5. Playlist mit Stream URLs füllen `sudo nano /var/lib/mpd/playlists/sender.m3u`
