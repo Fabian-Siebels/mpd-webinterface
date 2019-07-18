@@ -18,4 +18,4 @@
 4. index.php einfügen `sudo mv index.php /var/www/html`
 5. Playlist mit Stream URLs füllen `sudo nano /var/lib/mpd/playlists/sender.m3u`
 6. Playlist laden `mpc load sender` 
-7. ** Fertig **
+7. ** Fertig**
